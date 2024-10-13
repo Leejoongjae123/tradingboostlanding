@@ -14,9 +14,10 @@ export default function HomeSecondBanner({ className = "" }) {
           </SlideUp>
         </div>
         <div className="col-span-3 w-full h-full flex flex-col items-start justify-evenly">
-          <div className="w-full h-full flex flex-col items-start justify-center gap-y-10">
-            <div className="text-2xl md:text-[2.75rem] ">
-              <p className="font-medium font-pretendard text-grayscale-grayscale-0">
+          <SlideUp>
+            <div className="w-full h-full flex flex-col items-start justify-center gap-y-10">
+              <div className="text-2xl md:text-[2.75rem] ">
+                <p className="font-medium font-pretendard text-grayscale-grayscale-0">
                 <span className="font-black font-pretendard text-deeppink-100">
                   당신의 자산
                 </span>
@@ -46,8 +47,9 @@ export default function HomeSecondBanner({ className = "" }) {
             <div className="[text-decoration:underline] tracking-[-0.01em] leading-[150%] font-medium">
               거래소 계정이 이미 보유한 경우 트레이딩부스트 추천인코드로 새로
               가입해야 이용이 가능합니다.
+              </div>
             </div>
-          </div>
+          </SlideUp>
         </div>
       </div>
     </div>

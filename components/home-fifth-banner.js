@@ -17,33 +17,36 @@ export default function HomeFourthBanner({ className = "" }) {
               </h1>
             </SlideUp>
           </div>
+
           <div className="w-full h-full text-2xl md:text-4xl leading-4">
+            <SlideUp>
             <p className="m-0">
               <span className=" font-bold">
                 <span>
-                  <b>사용자별 성과는</b>
-                  <span className="text-2xl md:text-4xl"></span>
+                  <b>사용자별 성과는 </b>
+                  <br className="md:hidden" />
+                  <span className="font-bold text-deeppink-100">천지차이.</span>
                 </span>
               </span>
             </p>
-            <p className="text-2xl md:text-4xl m-0">
-              <span className="font-bold text-deeppink-100">
-                천지차이.
-              </span>
-            </p>
+            </SlideUp>
+          
           </div>
           <div className="w-full h-full text-xl md:text-4xl">
+            <SlideUp>
             <p className="m-0">
               <span className="leading-normal">
-                <span className="font-medium">
+                <span className="font-bold">
                   <span>
                     개인의 투자 성향에 따라 자동매매 알고리즘을 직접 설정하고
                   </span>
                 </span>
               </span>
             </p>
+            </SlideUp>
           </div>
           <div className="w-full h-full text-2xl md:text-4xl font-bold">
+            <SlideUp>
             <p className="m-0 text-2xl md:text-4xl text-deeppink-100">
               <span>
                 <span className="leading-normal">
@@ -51,6 +54,7 @@ export default function HomeFourthBanner({ className = "" }) {
                 </span>
               </span>
             </p>
+            </SlideUp>
           </div>
         </div>
       </div>

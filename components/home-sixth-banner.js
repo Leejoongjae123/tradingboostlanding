@@ -5,23 +5,30 @@ export default function HomeFourthBanner({ className = "" }) {
   return (
     <section className="w-full bg-grayscale-grayscale-1000 flex flex-col  items-start justify-start py-[10vh] pl-[10vw] pr-5 box-border max-w-full text-left text-25xl text-grayscale-grayscale-0 font-pretendard mq450:pt-[83px] mq450:pb-[83px] mq450:box-border mq750:gap-7 mq750:pl-[30px] mq750:box-border mq1100:pl-[60px] mq1100:pt-[127px] mq1100:pb-[127px] mq1100:box-border ">
       <SlideUp>
-        <div className="w-full mb-10 h-[110px] relative tracking-[-0.01em] leading-[125%] inline-block max-w-full mq450:text-7xl mq450:leading-[33px] mq750:text-16xl mq750:leading-[44px]">
+        <div className="w-full mb-10 h-full relative leading-normal text-3xl">
           <p className="m-0 font-black">우리의 기본 가치.</p>
           <p className="m-0">
             <span className="font-black">{`집단지성 `}</span>
             <span className="text-2xl font-medium font-pretendard">그리고</span>
-            <span className="text-25xl font-black font-pretendard">
-              {" "}
-              공리주의.
-            </span>
+            <br className="md:hidden" />
+            <span className="font-black font-pretendard">공리주의.</span>
           </p>
         </div>
-        <h1 className="m-0 w-full mb-10 h-[110px] relative text-inherit tracking-[-0.01em] leading-[125%] font-black font-[inherit] inline-block max-w-full mq450:text-7xl mq450:leading-[33px] mq750:text-16xl mq750:leading-[44px]">
-          <p className="m-0">뛰어나다고 훌륭한 것은 아닙니다.</p>
-          <p className="m-0 text-deeppink-100">
-            뛰어남은 올바르게 사용되야 합니다.
-          </p>
-        </h1>
+        <div>
+          <h1 className="m-0 w-full mb-10 h-full text-3xl">
+            <p className="m-0">뛰어나다고 훌륭한 것은 아닙니다.</p>
+            <br className="md:hidden" />
+            <p className="m-0 text-deeppink-100">
+              뛰어남은 올바르게 사용되야 합니다.
+            </p>
+          </h1>
+        </div>
+        <div>
+          <h1 className="m-0 w-full mb-10 h-full text-3xl">
+            
+          </h1>
+        </div>
+
         <div className="w-full h-[180px] relative text-base tracking-[-0.01em] leading-[125%] font-medium inline-block max-w-full">
           <p className="m-0">
             개미투자자가 제로섬 게임의 이 시장에서 이길 수 있는 방법
@@ -46,7 +53,7 @@ export default function HomeFourthBanner({ className = "" }) {
             문화를 개선하는데 집중합니다
           </p>
         </div>
-        </SlideUp>
-      </section>
+      </SlideUp>
+    </section>
   );
 }

@@ -49,13 +49,14 @@ export default function HomeFourthBanner({ className = "" }) {
           src="/frame@2x.png"
         />
         <div className="flex-1 flex flex-col items-center justify-start gap-[42px] max-w-full z-[1] mq750:gap-[21px]">
-          <div className="self-stretch relative tracking-[-0.01em] leading-[150%] mq450:text-3xl mq450:leading-[38px]">
-            <span>{`트레이딩부스트에서 `}</span>
-            <b className="text-13xl text-deeppink-100">자주 묻는 질문</b>
+          <div className="w-full text-2xl">
+            <span>트레이딩부스트에서</span>
+            <br />
+            <b className="text-3xl text-deeppink-100">자주 묻는 질문</b>
             <span>입니다.</span>
           </div>
 
-            <div className="w-full flex flex-col items-start justify-start gap-[17px] text-base">
+            <div className="w-full flex flex-col items-start justify-start gap-[17px] text-base mt-12 md:mt-6">
               {faqData.map((faq, index) => (
                 <div
                   key={index}

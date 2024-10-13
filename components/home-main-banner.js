@@ -10,7 +10,7 @@ const HomeMainBanner = ({ className = "" }) => {
       
       <div className="home_background my-12 flex-1 flex flex-col items-start justify-start md:py-[20vh] px-[10vw] relative gap-y-12 w-full">
 
-        <div className="w-full mb-10 md:mb-0 rounded-17xl bg-[#2C2C2C] box-border flex flex-col items-center justify-center py-12 px-6 md:px-12 gap-2 z-[2] " >
+        <div className="w-full mb-10 md:mb-0 rounded-17xl bg-[#2C2C2C] flex flex-col items-center justify-center py-12 px-6 md:px-12 gap-2 z-[2] border-thistle-200 border-[1px] border-solid box-border" >
           <div className="self-stretch flex flex-row items-center justify-center py-0 box-border max-w-full">
             <div className="w-full relative text-sm md:text-md text-center">
               맡기지 말고, 본인 계좌로 직접 자동매매를 시작해보세요
